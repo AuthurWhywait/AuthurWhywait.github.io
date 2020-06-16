@@ -1,1 +1,0 @@
-# Whywait's BLOG
