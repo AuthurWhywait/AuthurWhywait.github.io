@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 description: "The first 'Hello world' post for Simple Texture theme."
 categories: [uncategorized]
-tags: [random, jekyll]
+tags: [random, jekyll, test]
 redirect_from:
   - /2013/04/22/
 ---
