@@ -498,4 +498,4 @@ Lnode* find_first_public_node(Linklist& LA, Linklist& LB) {
 
 ---
 
-![公众号二维码，同步更新～](https://raw.githubusercontent.com/AuthurWhywait/PicBed/master/Others/%E6%A8%AA%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81_%E5%8A%A8%E6%80%81.gif)
+![关注公众号"永远学习的小歪“，掌握最新的消息动态～](https://raw.githubusercontent.com/AuthurWhywait/PicBed/master/Others/%E6%A8%AA%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81_%E5%8A%A8%E6%80%81.gif)
