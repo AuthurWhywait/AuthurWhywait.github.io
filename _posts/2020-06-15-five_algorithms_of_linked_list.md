@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "链表五大算法"
+title: "Five Algorithms in a Linked List"
 description: "头插法、尾插法、归并法、逆置法、双指针法"
 categories: [Knowledge]
 tags: [Algorithm]
