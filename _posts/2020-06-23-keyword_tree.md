@@ -22,7 +22,7 @@ redirect_from:
 
 <table>
     <tr>
-        <th colspan="16">use a table show a example</th>
+        <th colspan="16">use a table to show an example</th>
     </tr>
     <tr>
         <td colspan="16">CAI\CAO\LI\LAN\CHA\CHANG\WEN\CHAO\YUN\YANG\LONG\WANG\ZHAO\LIU\WU\CHEN</td>
