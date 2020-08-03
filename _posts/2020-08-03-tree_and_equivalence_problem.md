@@ -12,7 +12,7 @@ redirect_from:
 
 【等价关系】如果集合S中的关系R是**自反**的、**对称**的和**传递**的，则称它为一个**等价关系**。
 
-【等价类】设R是集合S的等价关系。对任何![x\in S][x\in S]，由![[x]_R = \{ y|y\in S\wedge xRy \}][x_R = \{ y|y\in S\wedge xRy \}]给出的集合![[x]_R \subseteq S][x_R \subseteq S]称为 ![s\in S][s\in S]生成的一个等价类。
+【等价类】设R是集合S的等价关系。对任何![x\in S][x\in S]，由![1][1]给出的集合![[x]_R \subseteq S][x_R \subseteq S]称为 ![s\in S][s\in S]生成的一个等价类。
 
 【R等价类】若R是集合S上的一个等价关系，则由这个等价关系可产生这个集合的唯一划分(即：可以按R将S划分为若干**不相交**的子集S1,S2...，它们的并为S，则这些子集Si便称为S的R等价类)。
 
@@ -154,7 +154,7 @@ int fix_mfset(MFSet &S, int i) {
 
 [x_R \subseteq S]:https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520%255Bx%255D_R%2520%255Csubseteq%2520S&dl=0
 
-[x_R = \{ y|y\in S\wedge xRy \}]:https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520%255Bx%255D_R%2520%253D%2520%255C%257B%2520y%257Cy%255Cin%2520S%255Cwedge%2520xRy%2520%255C%257D&dl=0
+[1]:https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520%255Bx%255D_R%2520%253D%2520%255C%257B%2520y%257Cy%255Cin%2520S%255Cwedge%2520xRy%2520%255C%257D&dl=0
 
 [x\in S]:https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520x%255Cin%2520S&dl=0
 
