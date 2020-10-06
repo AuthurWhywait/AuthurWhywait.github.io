@@ -19,7 +19,7 @@ redirect_from:
 
 > Dijkstra算法适用于求从某个源点到其余各顶点的最短路径的问题。
 
-【Dijkstra算法如下】
+【Dijkstra算法步骤】
 
 ![Dijkstra算法步骤][Dijkstra算法步骤]
 
