@@ -3,7 +3,7 @@ layout: post
 title: "Hash Table"
 description: "Introduction of Hash Table"
 categories: [Knowledge]
-tags: [Data Structure]
+tags: [Data Structure, Searching]
 redirect_from:
   - /2020/07/01/
 ---
