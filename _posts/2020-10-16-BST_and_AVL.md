@@ -76,7 +76,7 @@ BST结点的删除分为三种情况：
 
 用Nh表示**深度为h的平衡树中含有的最少结点树**。显然`N[0]=0`,`N[1]=1`,`N[2]=2`，并且`N[h] = N[h-1] + N[h-2] + 1`。
 
-> 如此可推后面的。有些类似于斐波那契树列的感觉。
+> 如此可推后面的。有些类似于斐波那契数列的感觉。
 
 含有n个结点的平衡树的最大深度为![n个结点的平衡树的最大深度](https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520log_%255Cvarphi%2520%2528%255Csqrt%257B5%257D%2528n%26plus%3B1%2529%2529%2520-%25202&dl=0)，其中![fai的范围](https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520%255Cvarphi%2520%253D%2520%255Cfrac%257B1%26plus%3B%2520%255Csqrt%257B5%257D%257D%257B2%257D&dl=0)。因此，在平衡树上进行查找的时间复杂度为`O(logn)`。
 
