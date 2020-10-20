@@ -3,7 +3,7 @@ layout: post
 title: "《算法与数据结构考研试题精析》笔记(7) - 图"
 description: "《算法与数据结构考研试题精析》第七章《图》做题笔记"
 categories: [Knowledge]
-tags: [Data Structure, 《算法与数据结构考研试题精析》, Graph]
+tags: [Data Structure, 《算法与数据结构考研试题精析》, Graph, Notes]
 redirect_from:
   - /2020/10/10/
 ---

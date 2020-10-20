@@ -3,7 +3,7 @@ layout: post
 title: "《算法与数据结构考研试题精析》笔记(3) - 栈与队列"
 description: "《算法与数据结构考研试题精析》第三章《栈与队列》做题笔记"
 categories: [Knowledge]
-tags: [Data Structure, 《算法与数据结构考研试题精析》, Stack, Queue]
+tags: [Data Structure, 《算法与数据结构考研试题精析》, Stack, Queue, Notes]
 redirect_from:
   - /2020/09/19/
 ---
