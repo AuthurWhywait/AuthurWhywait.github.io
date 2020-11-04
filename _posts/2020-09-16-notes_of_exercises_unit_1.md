@@ -113,6 +113,7 @@ int suanfa3(int n) {
 ```
 
 > s的大小变化：1->3->6->10->...
+> 表达式为![operation](https://latex.vimsky.com/test.image.latex.php?fmt=svg&val=%255Cinline%2520%255Cdpi%257B150%257D%2520%255Cfootnotesize%2520a_n%2520%253D%2520%255Cfrac%257Bn%2528n%26plus%3B1%2529%257D%257B2%257D&dl=0).s
 
 汉诺塔递归中，假设碟子的个数为n，则时间复杂度为O(2^n).
 
