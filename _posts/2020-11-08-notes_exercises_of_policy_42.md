@@ -5,7 +5,7 @@ description: "摘抄毛中特的知识点"
 categories: [Knowledge]
 tags: [Policy,《肖秀荣政治1000题》]
 redirect_from:
-  - /2020/11/09/
+  - /2020/11/08/
 ---
 
 ## 第一章 毛泽东思想及其历史地位
