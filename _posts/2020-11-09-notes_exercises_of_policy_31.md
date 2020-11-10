@@ -3,7 +3,7 @@ layout: post
 title: "《肖秀荣政治1000题》史纲单选"
 description: "摘抄史纲的知识点"
 categories: [Knowledge]
-tags: [Policy,《肖秀荣政治1000题》]
+tags: [Policy,《肖秀荣政治1000题》, Notes]
 redirect_from:
   - /2020/11/09/
 ---
