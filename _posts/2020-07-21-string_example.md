@@ -2,8 +2,8 @@
 layout: post
 title: "串操作应用举例"
 description: "文本编辑以及建立词索引表"
-categories: [Knowledge]
-tags: [Data Structure, Example, String]
+categories: [Data Structure]
+tags: [Example, String]
 redirect_from:
   - /2020/07/21/
 ---

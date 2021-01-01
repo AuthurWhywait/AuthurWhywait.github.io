@@ -2,8 +2,8 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(4) - 串"
 description: "《算法与数据结构考研试题精析》第四章《串》做题笔记"
-categories: [Knowledge]
-tags: [Data Structure, 《算法与数据结构考研试题精析》, String, Notes]
+categories: [Data Structure]
+tags: [《算法与数据结构考研试题精析》, String, Notes]
 redirect_from:
   - /2020/09/23/
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: "Boundary Tag Method"
 description: "Boundary tag method is a storage management method for dynamic partition allocation in operating system"
-categories: [Knowledge]
-tags: [Data Structure, dynamic memory management]
+categories: [Data Structure]
+tags: [dynamic memory management]
 redirect_from:
   - /2020/07/31/
 ---

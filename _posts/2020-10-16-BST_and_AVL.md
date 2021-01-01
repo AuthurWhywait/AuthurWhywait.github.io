@@ -2,8 +2,8 @@
 layout: post
 title: "BST and AVL-tree"
 description: "The introduction of BST and AVL"
-categories: [Knowledge]
-tags: [Data Structure, Searching]
+categories: [Data Structure]
+tags: [Searching]
 redirect_from:
   - /2020/10/16/
 ---

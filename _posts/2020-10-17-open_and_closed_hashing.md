@@ -2,8 +2,8 @@
 layout: post
 title: "Open Hashing and Closed Hashing"
 description: "开散列法和闭散列法都是个啥"
-categories: [Knowledge]
-tags: [Data Structure, Searching]
+categories: [Data Structure]
+tags: [Searching]
 redirect_from:
   - /2020/10/17/
 ---

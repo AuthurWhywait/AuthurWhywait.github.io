@@ -2,8 +2,8 @@
 layout: post
 title: "External Sorting"
 description: "Introduction of External Sorting"
-categories: [Knowledge]
-tags: [Data Structure, Sorting]
+categories: [Data structure]
+tags: [Sorting]
 redirect_from:
   - /2020/07/13/
 ---

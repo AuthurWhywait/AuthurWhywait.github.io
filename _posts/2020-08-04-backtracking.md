@@ -2,8 +2,8 @@
 layout: post
 title: "Backtracking"
 description: "Backtracking"
-categories: [Knowledge]
-tags: [Data Structure, Backtracking, Tree]
+categories: [Data Structure]
+tags: [Backtracking, Tree]
 redirect_from:
   - /2020/08/04/
 ---

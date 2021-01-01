@@ -2,8 +2,8 @@
 layout: post
 title: "栈的应用举例"
 description: "An using example of Stack"
-categories: [Knowledge]
-tags: [Data Structure, Example, Stack]
+categories: [Data Structure]
+tags: [Example, Stack]
 redirect_from:
   - /2020/07/19/
 ---

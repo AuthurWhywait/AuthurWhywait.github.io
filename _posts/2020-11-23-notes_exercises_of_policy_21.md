@@ -2,7 +2,7 @@
 layout: post
 title: "《肖秀荣政治1000题》思修单选"
 description: "摘抄思修的知识点"
-categories: [Knowledge]
+categories: [Postgraduate Examination]
 tags: [Policy,《肖秀荣政治1000题》, Notes]
 redirect_from:
   - /2020/11/23/

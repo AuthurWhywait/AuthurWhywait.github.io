@@ -2,8 +2,8 @@
 layout: post
 title: "Dynamic Search Table"
 description: "The introduction of Dynamic Search Table"
-categories: [Knowledge]
-tags: [Data Structure, Searching]
+categories: [Data Structure]
+tags: [Searching]
 redirect_from:
   - /2020/10/16/
 ---

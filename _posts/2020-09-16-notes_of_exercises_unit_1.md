@@ -2,8 +2,8 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(1) - 概论"
 description: "《算法与数据结构考研试题精析》第一章《概论》做题笔记"
-categories: [Knowledge]
-tags: [Data Structure, 《算法与数据结构考研试题精析》, Notes]
+categories: [Data Structure]
+tags: [《算法与数据结构考研试题精析》, Notes]
 redirect_from:
   - /2020/09/16/
 ---

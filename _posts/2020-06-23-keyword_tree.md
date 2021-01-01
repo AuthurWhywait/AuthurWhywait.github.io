@@ -2,8 +2,8 @@
 layout: post
 title: "Keyword Tree"
 description: "Introducing the keyword tree."
-categories: [Knowledge]
-tags: [Data Structure, Tree, Searching]
+categories: [Data Structure]
+tags: [Tree, Searching]
 redirect_from:
   - /2020/06/23/
 ---

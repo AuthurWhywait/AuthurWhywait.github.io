@@ -2,8 +2,8 @@
 layout: post
 title: "Tree and Equivalence Problem"
 description: "how to use tree to describe equivalence"
-categories: [Knowledge]
-tags: [Data Structure, Tree, Equivalence]
+categories: [Data Structure]
+tags: [Tree, Equivalence]
 redirect_from:
   - /2020/08/03/
 ---

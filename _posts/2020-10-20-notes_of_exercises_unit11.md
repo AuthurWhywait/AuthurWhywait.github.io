@@ -2,8 +2,8 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(11) - 文件"
 description: "《算法与数据结构考研试题精析》第十一章《文件》做题笔记"
-categories: [Knowledge]
-tags: [Data Structure, 《算法与数据结构考研试题精析》, File, Notes]
+categories: [Data Structure]
+tags: [《算法与数据结构考研试题精析》, File, Notes]
 redirect_from:
   - /2020/10/20/
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "《肖秀荣政治1000题》史纲多选"
 description: "摘抄史纲的知识点"
-categories: [Knowledge]
+categories: [Postgraduate Examination]
 tags: [Policy,《肖秀荣政治1000题》, Notes]
 redirect_from:
   - /2020/11/10/

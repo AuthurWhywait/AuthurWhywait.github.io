@@ -2,13 +2,14 @@
 layout: post
 title: "Five Algorithms in a Linked List"
 description: "头插法、尾插法、归并法、逆置法、双指针法"
-categories: [Knowledge]
+categories: [Data Structure, Algorithm]
 tags: [Algorithm]
 redirect_from:
   - /2020/06/15/
 ---
 
-# Part I
+## Part I
+
 在这部分，中我们将要介绍链表的最简单的两种算法 - **头插法**和**尾插法**。
 
 顾名思义，头插法和尾插法就是在链表头部或者尾部进行结点的插入操作。
