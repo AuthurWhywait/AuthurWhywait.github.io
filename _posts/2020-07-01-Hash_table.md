@@ -2,7 +2,7 @@
 layout: post
 title: "Hash Table"
 description: "Introduction of Hash Table"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Searching]
 redirect_from:
   - /2020/07/01/

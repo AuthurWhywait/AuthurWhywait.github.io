@@ -2,7 +2,7 @@
 layout: post
 title: "Buddy System"
 description: "An Introduction of Buddy System"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [dynamic memory management]
 redirect_from:
   - /2020/08/01/

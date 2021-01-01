@@ -2,7 +2,7 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(10) - 排序"
 description: "《算法与数据结构考研试题精析》第十章《排序》做题笔记"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [《算法与数据结构考研试题精析》, Sorting, Notes]
 redirect_from:
   - /2020/10/20/

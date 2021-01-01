@@ -2,7 +2,7 @@
 layout: post
 title: "m元多项式的表示"
 description: "用广义表表示m元多项式"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Generalized Table]
 redirect_from:
   - /2020/07/22/

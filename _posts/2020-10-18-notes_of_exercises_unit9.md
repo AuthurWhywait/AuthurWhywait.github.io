@@ -2,7 +2,7 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(9) - 集合"
 description: "《算法与数据结构考研试题精析》第九章《集合》做题笔记"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [《算法与数据结构考研试题精析》, Searching, Notes]
 redirect_from:
   - /2020/10/18/

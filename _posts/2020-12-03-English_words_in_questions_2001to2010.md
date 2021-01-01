@@ -2,7 +2,7 @@
 layout: post
 title: "阅读题干中的词汇短语收集(2001~2010)"
 description: "阅读题干中的词汇收集(2001~2010)"
-categories: [Postgraduate Examination]
+categories: [Postgraduate_Examination]
 tags: [English, Reading, Notes]
 redirect_from:
   - /2020/12/03/

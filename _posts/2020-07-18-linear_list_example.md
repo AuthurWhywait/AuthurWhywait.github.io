@@ -2,7 +2,7 @@
 layout: post
 title: "一元多项式的表示及相加"
 description: "An using example of Linear List"
-categories: [DataStructure]
+categories: [Data_Structure]
 tags: [Example, Linear List]
 redirect_from:
   - /2020/07/18/

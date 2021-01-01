@@ -2,7 +2,7 @@
 layout: post
 title: "Internal Sorting"
 description: "Introduction of Internal Sorting"
-categories: [DataStructure]
+categories: [Data_Structure]
 tags: [Sorting]
 redirect_from:
   - /2020/07/10/

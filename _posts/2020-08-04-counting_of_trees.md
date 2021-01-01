@@ -2,7 +2,7 @@
 layout: post
 title: "Counting of Trees"
 description: "How many different trees can be built with N nodes"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Tree]
 redirect_from:
   - /2020/08/04/

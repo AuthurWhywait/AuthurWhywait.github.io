@@ -2,7 +2,7 @@
 layout: post
 title: "The Connectivity of Graph"
 description: "利用遍历图的算法求解图的连通性问题，并讨论最小代价生成树以及重连通性与通信网络的经济性和可靠性关系"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Graph]
 redirect_from:
   - /2020/08/06/

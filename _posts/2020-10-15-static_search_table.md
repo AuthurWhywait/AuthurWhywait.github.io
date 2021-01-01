@@ -2,7 +2,7 @@
 layout: post
 title: "Static Search Table"
 description: "The introduction of Static Search Table"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Searching]
 redirect_from:
   - /2020/10/15/

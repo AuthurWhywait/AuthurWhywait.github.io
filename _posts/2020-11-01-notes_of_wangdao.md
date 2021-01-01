@@ -2,7 +2,7 @@
 layout: post
 title: "《王道数据结构考研复习指导》笔记"
 description: "主要是将一些不易注意到的知识点、易错点以及易忘点整理一下"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [《王道数据结构考研复习指导》, Notes]
 redirect_from:
   - /2020/11/01/

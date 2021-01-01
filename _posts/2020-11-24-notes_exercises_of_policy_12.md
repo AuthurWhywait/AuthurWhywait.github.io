@@ -2,7 +2,7 @@
 layout: post
 title: "《肖秀荣政治1000题》马原多选"
 description: "摘抄马原的知识点"
-categories: [Postgraduate Examination]
+categories: [Postgraduate_Examination]
 tags: [Policy,《肖秀荣政治1000题》, Notes]
 redirect_from:
   - /2020/11/24/

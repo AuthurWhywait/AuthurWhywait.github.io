@@ -2,7 +2,7 @@
 layout: post
 title: "《数据结构(C语言版)》笔记"
 description: "主要是将一些不易注意到的知识点、易错点以及易忘点整理一下"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [《数据结构(C语言版)》, Notes]
 redirect_from:
   - /2020/11/02/

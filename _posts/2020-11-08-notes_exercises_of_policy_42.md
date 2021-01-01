@@ -2,7 +2,7 @@
 layout: post
 title: "《肖秀荣政治1000题》毛中特多选"
 description: "摘抄毛中特的知识点"
-categories: [Postgraduate Examination]
+categories: [Postgraduate_Examination]
 tags: [Policy,《肖秀荣政治1000题》]
 redirect_from:
   - /2020/11/08/

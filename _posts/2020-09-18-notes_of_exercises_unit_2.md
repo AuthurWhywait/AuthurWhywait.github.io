@@ -2,7 +2,7 @@
 layout: post
 title: "《算法与数据结构考研试题精析》笔记(2) - 线性表"
 description: "《算法与数据结构考研试题精析》第二章《线性表》做题笔记"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [《算法与数据结构考研试题精析》, Linear List, Notes]
 redirect_from:
   - /2020/09/18/

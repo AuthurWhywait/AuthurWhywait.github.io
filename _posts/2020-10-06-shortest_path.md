@@ -2,7 +2,7 @@
 layout: post
 title: "Shortest Path"
 description: "最短路径的Dijkstra算法和Floyd算法"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Graph]
 redirect_from:
   - /2020/10/06/
