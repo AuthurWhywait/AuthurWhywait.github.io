@@ -2,7 +2,7 @@
 layout: post
 title: "《肖秀荣政治1000题》毛中特单选"
 description: "题目整理"
-categories: [Postgraduate_Examination]
+categories: [PostgraduateExamination]
 tags: [Notes, 《肖秀荣政治1000题》, Policy]
 redirect_from:
   - /2020/10/21/
