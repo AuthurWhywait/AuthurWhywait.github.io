@@ -2,7 +2,7 @@
 layout: post
 title: "离散事件模拟"
 description: "银行业务的模拟程序"
-categories: [Data Structure]
+categories: [Data_Structure]
 tags: [Example, Queue]
 redirect_from:
   - /2020/07/21/

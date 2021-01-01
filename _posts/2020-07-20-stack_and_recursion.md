@@ -2,7 +2,7 @@
 layout: post
 title: "栈与递归的实现"
 description: "栈与递归的实现的相关介绍"
-categories: [Data Structure]
+categories: [DataStructure]
 tags: [Example, Stack, Recursion]
 redirect_from:
   - /2020/07/20/

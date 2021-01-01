@@ -2,7 +2,7 @@
 layout: post
 title: "External Sorting"
 description: "Introduction of External Sorting"
-categories: [Data structure]
+categories: [Data_Structure]
 tags: [Sorting]
 redirect_from:
   - /2020/07/13/

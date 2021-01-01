@@ -2,7 +2,7 @@
 layout: post
 title: "Five Algorithms in a Linked List"
 description: "头插法、尾插法、归并法、逆置法、双指针法"
-categories: [Data Structure, Algorithm]
+categories: [DataStructure, Algorithm]
 tags: [Algorithm]
 redirect_from:
   - /2020/06/15/
