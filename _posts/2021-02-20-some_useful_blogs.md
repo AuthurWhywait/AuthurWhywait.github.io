@@ -32,7 +32,7 @@ ps:老师憨憨的,有时会犯一些低级错误,完美体现了找bug的程序
 另外关于**屏幕没有铺满显示器**的问题见[官网解决方案](https://docs.vmware.com/cn/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-D4C5F2ED-E23D-4ADD-9DBF-55B9EAFA90B1.html)
 > 我是直接 View -> Strech Guest -> Keep Aspect Ratio Strech(等比例最大)
 
-吐槽:虚拟机跑MacOs是真的卡得蛋疼,建议直接攒钱买mac.
+吐槽:虚拟机跑MacOs是真的卡得蛋疼,虽然有一些优化方法,但是卡的我根本无法操作,建议直接攒钱买mac.
 
 ## 一些软件\工具的下载以及使用教程
 
