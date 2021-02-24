@@ -5,7 +5,7 @@ description: "SublimeText3上高亮Markdown语法的插件的安装"
 categories: [Notes]
 tags: [Sublime Text 3, Markdown]
 redirect_from:
-  - /2021/02/20/
+  - /2021/02/23/
 ---
 
 ## 插件安装方式
@@ -36,4 +36,4 @@ MarkdownEditing: 一个提高Sublime中Markdown编辑特性的插件
 
 ***
 
-还有一些Mardwon相关插件比如`MarkdownLivePreview\MarkdownPreview\LiveReload`之类,自己视情况安装.
+还有一些Mardown相关插件比如`MarkdownLivePreview\MarkdownPreview\LiveReload`之类,自己视情况安装.

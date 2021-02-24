@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Records of Some Effective Blogs or Videos"
+title: "一些实操真实有效的博客\教程\教学视频"
 description: "最近在各种倒腾电脑时候遇到的一些真实有效的网站，特此收集"
-categories: [Notes]
-tags: [Other's Blogs, Teaching Video]
+categories: [Collection]
+tags: [Blogs, Teaching Videos, V2ray, MacOS, WMware, Python, MySQL]
 redirect_from:
   - /2021/02/20/
 ---
@@ -12,7 +12,7 @@ redirect_from:
 
 ## python教学视频
 
-除了python的常规教学之外,还包括Pycharm的下载安装使用,虚拟机VMware的下载安装使用,ubuntu镜像的下载,linux的一些command...
+除了python的常规教学之外,还包括Pycharm的下载安装使用,虚拟机VMware的下载安装使用,ubuntu镜像的下载,linux的一些command,MySQL等...
 
 [求知讲堂2020python+人工智能 99天完整版 学完可就业](https://www.bilibili.com/video/BV1vA411b7Rn)
 
@@ -43,6 +43,11 @@ ps:老师憨憨的,有时会犯一些低级错误,完美体现了找bug的程序
 关于 ubuntu, WMware 等有官网的软件最好都去官网下载, 官方的总是nice的. 
 
 > 至于 WMwareWorkstationPro 首次打开要密钥, 密钥自行购买或者google. (依据钱包厚薄而定,最好还是支持正版!)
+
+[Navicat 15.x for MySQL最新版安装破解教程（附安装包和注册机，全网独家可用）](https://www.jianshu.com/p/aa3c00b87bec)
+
+> 说实话吧,这个"全网独家",需要我们支付5元人民币,虽然5块钞票不多,但是"交钱领码"这种操作没得保障,交易双方地位的不平等使得我在付钱前停下了我看猫画虎的脚步.不过这个应该是真的吧...应该吧...管他呢我先记录下来,以后实在要用就来此挖矿!
+> PS: 百度网盘自愿打赏的那个兄弟都进去了,这位兄弟怎么还强制收费呢?真·顶风作案.
 
 ***
 
