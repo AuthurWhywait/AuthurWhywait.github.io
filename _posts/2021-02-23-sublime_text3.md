@@ -36,4 +36,4 @@ MarkdownEditing: 一个提高Sublime中Markdown编辑特性的插件
 
 ***
 
-还有一些Mardown相关插件比如`MarkdownLivePreview\MarkdownPreview\LiveReload`之类,自己视情况安装.
+还有一些Markdown相关插件比如`MarkdownLivePreview\MarkdownPreview\LiveReload`之类,自己视情况安装.
