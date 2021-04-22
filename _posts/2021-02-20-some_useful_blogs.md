@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "一些实操真实有效的博客\教程\教学视频"
+title: "一些实操真实有效的博客,教程,教学视频"
 description: "最近在各种倒腾电脑时候遇到的一些真实有效的网站，特此收集"
 categories: [Collection]
 tags: [Blogs, Teaching Videos, V2ray, MacOS, WMware, Python, MySQL]
