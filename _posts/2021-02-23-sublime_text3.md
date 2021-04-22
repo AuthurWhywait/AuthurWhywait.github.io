@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text 3的插件安装方式以及插件MarkdownEditing的安装"
+title: "Sublime\ Text\ 3的插件安装方式以及插件MarkdownEditing的安装"
 description: "SublimeText3上高亮Markdown语法的插件的安装"
 categories: [Notes]
 tags: [Sublime Text 3, Markdown]
