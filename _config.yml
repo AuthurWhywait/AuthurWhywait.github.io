@@ -1,15 +1,6 @@
 # Site Settings
 encoding: UTF-8
-# exclude: ["*.gem", "*.gemspec", , "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "node_modules"
-  - "Rakefile"
-  - "starter-kit"
-  - "vendor"
+exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 permalink: /blog/:year/:month/:day/:title/
 
@@ -32,11 +23,11 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Whywait's Blogs
-description: "BLOGS SPACE"
+title: Blog Space of Authur Lee
+description: "Keep running, without Fear."
 keywords: 'jekyll,theme,gem-based,blog'
 author:
-  name: whywait
+  name:
   job_title:
   location:
   email:
@@ -44,7 +35,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/AuthurWhywait/
+      url: https://github.com/AuthurWhywait
     - name: instagram
       url:
     - name: linkedin
@@ -56,10 +47,9 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Whywait's Blog</h1>
-#   section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section2: <h2>All things are difficult before they are easy. </h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/AuthurWhywait" title="View on GitHub"></a></div>
+  section1: <h1>Sail Blade</h1>
+  section2: <h2>Keep running, without Fear.</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/SailBlade/sailblade.github.io" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
@@ -68,7 +58,7 @@ blog:
 disqus:
   shortname: # e.g. yizeng
   public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
-google_tag_manager: # e.g. 'GTM-KCQJXZ8F'
+google_analytics: # e.g. 'UA-42456515-5'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
 paths:

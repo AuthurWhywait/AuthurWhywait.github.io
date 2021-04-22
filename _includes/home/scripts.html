@@ -34,3 +34,11 @@
     });
 
 </script>
+
+{% if site.google_analytics %}
+<script>
+$(document).on('click', '[class*="btn"]', function(event) {
+    sendGaEvent('Home', 'Click', event.currentTarget);
+});
+</script>
+{% endif %}
