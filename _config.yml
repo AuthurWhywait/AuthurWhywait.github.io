@@ -2,7 +2,8 @@
 encoding: UTF-8
 # exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 exclude:
-  - *.gem
+#   - *.gem
+  - "*.gem"
   - *.gemspec
   - Gemfile
   - Gemfile.lock
