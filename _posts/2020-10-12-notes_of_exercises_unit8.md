@@ -3,7 +3,7 @@ layout: post
 title: "《算法与数据结构考研试题精析》笔记(8) - 动态存储管理"
 description: "《算法与数据结构考研试题精析》第八章《动态存储管理》做题笔记"
 categories: [Data_Structure]
-tags: [《算法与数据结构考研试题精析》, dynamic memory management, Notes]
+tags: [《算法与数据结构考研试题精析》, Dynamic Memory Management, Notes]
 redirect_from:
   - /2020/10/12/
 ---

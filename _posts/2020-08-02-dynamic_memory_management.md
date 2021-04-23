@@ -3,7 +3,7 @@ layout: post
 title: "Dynamic Memory Management"
 description: "Introduction of dynamic memory management"
 categories: [Data_Structure]
-tags: [dynamic memory management]
+tags: [Dynamic Memory Management]
 redirect_from:
   - /2020/08/02/
 ---
