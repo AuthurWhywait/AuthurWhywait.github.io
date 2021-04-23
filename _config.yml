@@ -29,15 +29,15 @@ keywords: 'blog'
 author:
   name: Authur Lee
   job_title:
-  location:
+  location: Beijing, China
   email: yiwulichen@gmail.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/AuthurWhywait/AuthurWhywait.github.io
+      url: https://github.com/AuthurWhywait
     - name: instagram
-      url:
+      url: authur_lee
     - name: linkedin
       url:
     - name: stackoverflow
@@ -48,12 +48,13 @@ author:
       url:
 home:
   section1: <h1>Lee's Blog</h1>
-  section2: <h2>All things are difficult before they are easy. </h2>
+  section2: <h2>All things are difficult before they are easy.</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/AuthurWhywait" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  # footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  footer_content: This is a place to store Knowledge.
 
 disqus:
   shortname: # e.g. yizeng
