@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The datasets contained in R language"
+title: "The datasets contained in R"
 description: "the datasets, R"
 categories: [R]
 tags: [R]
@@ -116,3 +116,9 @@ redirect_from:
 | volcano                | Topographic Information on Auckland's Maunga Whau Volcano       |
 | warpbreaks             | The Number of Breaks in Yarn during Weaving                     |
 | women                  | Average Heights and Weights for American Women                  |
+
+***
+
+Chinese version: [Click Here](https://blog.csdn.net/yjz_sdau/article/details/51510294)
+
+Full version: [Click Here](https://blog.csdn.net/c1z2w3456789/article/details/50983713)
