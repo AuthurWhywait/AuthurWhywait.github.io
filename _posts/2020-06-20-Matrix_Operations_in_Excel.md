@@ -2,7 +2,7 @@
 layout: post
 title: "Matrix Operations in Excel"
 description: "Some Use of Excel"
-categories: [Software]
+categories: [Excel]
 tags: [Excel]
 redirect_from:
   - /2020/06/20/
