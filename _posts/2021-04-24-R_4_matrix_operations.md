@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matrix Operations in R"
+title: "R(4), Matrix Operations"
 description: "matrix operations, R"
 categories: [R]
 tags: [R, Operations]

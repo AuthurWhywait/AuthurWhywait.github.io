@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Types in R"
+title: "R(2), Data Types"
 description: "Annotation, R"
 categories: [R]
 tags: [R, Skills]

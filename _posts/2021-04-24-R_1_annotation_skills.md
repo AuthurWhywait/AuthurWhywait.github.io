@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Skills of Annotation in R"
+title: "R(1), Skills of Annotation"
 description: "Annotation, R"
 categories: [R]
 tags: [R, Skills]
