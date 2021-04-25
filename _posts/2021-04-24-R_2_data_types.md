@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "R(2), Data Types"
-description: "Annotation, R"
+description: "R"
 categories: [R]
-tags: [R, Skills]
+tags: [R]
 redirect_from:
   - /2021/04/24/
 ---
