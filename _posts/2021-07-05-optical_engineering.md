@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "光学工程基础 清华大学（1） 绪论"
+title: "《光学工程基础》清华大学（1）- 绪论"
 description: "光学工程基础-清华大学 学堂在线"
 categories: [Optic]
 tags: [Optic, THU]
@@ -137,25 +137,24 @@ $Delta$函数（脉冲函数）：物理学家狄拉克用来描述极为窄小�
 
 $$
 \delta(x)=0,\ x\ne 0\\
-\ \\
-\int_{-\infin}^{\infin}\delta (x)dx = 1
+\int_{-\infty}^{\infty}\delta (x)dx = 1
 $$
 
 $Delta$函数的性质：
 
 - 广义函数 $\iint \delta(x,y)\varphi(x,y)dxdy = \varphi(0,0)$;
 - 筛选性质 $\iint \delta(x-x_0,y-y_0)\varphi(x,y)dxdy = \varphi(x_0,y_0)$;
-- 比例变换性质 $\delta (ax,by) = \frac{1}{|ab|}\delta(x,y)$;
+- 比例变换性质 $\delta (ax,by) = \frac{1}{\|ab\|}\delta(x,y)$;
 - 与普通函数的乘积 $h(x,y)\delta(x-x_0,y-y_0) = h(x_0,y_0)\delta(x-x_0,y-y_0)$.
 
 梳状函数：是多个delta函数的组合构成。沿x轴分布、间隔为1的无穷多个脉冲函数的集合。
 
 $$
-comb(x) = \sum_{n=-\infin}^{+\infin}\delta(x-n)
+comb(x) = \sum_{n=-\infty}^{+\infty}\delta(x-n)
 $$
 
 - 梳状函数具有**抽样能力**。
-- 梳状函数的缩放性质：$\sum_{n=-\infin}^{\infin}\delta(x-n\tau) = \frac{1}{\tau}\sum_{n=-\infin}^{\infin}\delta(\frac{x}{\tau}-n) = \frac{1}{\tau}comb(\frac{x}{\tau})$
+- 梳状函数的缩放性质：$\sum_{n=-\infty}^{\infty}\delta(x-n\tau) = \frac{1}{\tau}\sum_{n=-\infty}^{\infty}\delta(\frac{x}{\tau}-n) = \frac{1}{\tau}comb(\frac{x}{\tau})$
 
 ## 常用函数的运算与变换
 
@@ -165,7 +164,7 @@ $$
 
 $$
 \begin{aligned}
-g(x,y) &= \iint_{-\infin}^{\infin}f(\xi, \eta)h(x-\xi,y-\eta)d\xi d\eta\\
+g(x,y) &= \iint_{-\infty}^{\infty}f(\xi, \eta)h(x-\xi,y-\eta)d\xi d\eta\\
 &= f(x,y)*h(x,y)
 \end{aligned}
 $$
@@ -187,15 +186,15 @@ $$
 
 $$
 f(x)\star g(x) =
-\iint_{-\infin}f(\xi,\eta)g^*(\xi-x,\eta-y)d\xi d\eta
+\iint_{-\infty}f(\xi,\eta)g^*(\xi-x,\eta-y)d\xi d\eta
 $$
 
 相关可以用卷积的形式来表示：
 
 $$
 \begin{aligned}
-    f(x)\star g(x) &= \int_{-\infin}^{\infin}f(\xi)g^*(\xi-x)d\xi\\
-    &=\int_{-\infin}^{\infin}f(\xi)g^*\frac{x-\xi}{-1}d\xi\\
+    f(x)\star g(x) &= \int_{-\infty}^{\infty}f(\xi)g^*(\xi-x)d\xi\\
+    &=\int_{-\infty}^{\infty}f(\xi)g^*\frac{x-\xi}{-1}d\xi\\
     &=f(x)*g^*(-x)
 \end{aligned}
 $$
@@ -211,8 +210,8 @@ $$
 
 $$
 \begin{aligned}
-g(x,y) &= \iint_{-\infin}G(f_x,f_y)exp[j2\pi(f_xx+f_yy)]df_xdf_y\\
-G(f_x,f_y)&=\iint_{-\infin}g(x,y)exp[-j2\pi(f_xx+f_yy)]dxdy
+g(x,y) &= \iint_{-\infty}G(f_x,f_y)exp[j2\pi(f_xx+f_yy)]df_xdf_y\\
+G(f_x,f_y)&=\iint_{-\infty}g(x,y)exp[-j2\pi(f_xx+f_yy)]dxdy
 \end{aligned}
 $$
 
