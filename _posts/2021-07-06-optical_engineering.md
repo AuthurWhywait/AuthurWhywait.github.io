@@ -58,11 +58,11 @@ $$
 
 【光线模型】如果光波波长与光学系统口径相比小到可以忽略，则可以抽象出应用光学中广泛使用的**光线模型**。
 
-应用光学近似：$\textcolor{red}{\lambda=0}$
+应用光学近似：${\lambda=0}$
 衍射方程：$dsin\theta=m\lambda$
 
 $$
-\lambda=0 \rightarrow\theta=0\rightarrow\textcolor{red}{光沿原方向传播}
+\lambda=0 \rightarrow\theta=0\rightarrow{光沿原方向传播}
 $$
 
 【光线传播基本定律】
@@ -282,10 +282,10 @@ $$
 |  e=1  |  k=-1  |  $\epsilon$=0  | 抛物面 |
 |  e>1  |  k<-1  |  $\epsilon$<0  | 双曲面 |
 
-【<font color='red'>轴对称高次非球面</font>】(在二次回转曲面的基础中加上一些<font color='red'项></font>)
+【<font color='red'>轴对称高次非球面</font>】(在二次回转曲面的基础中加上一些<font color='red'>项</font>)
 
 $$
-z=\frac{ch^2}{1+\sqrt{1-\epsilon(ch)^2}}+\textcolor{red}{a_4h^4+a_6h^6+a_8h^8+...}
+z=\frac{ch^2}{1+\sqrt{1-\epsilon(ch)^2}}+a_4h^4+a_6h^6+a_8h^8+...
 $$
 
 【<font color='red'>自由曲面</font>】
