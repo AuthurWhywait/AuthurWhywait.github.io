@@ -392,7 +392,7 @@ $$
 \begin{matrix}
     |\lambda_1|\le1&|\lambda_2|\le1
 \end{matrix}
-$$|\lambda_1|\le1&|\lambda_2|\le1
+$$
 
 只有这样，所有的$\mathbf{M^Na}$可保持在距离光轴的有限范围内，才能建立稳定振荡。
 
