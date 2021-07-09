@@ -15,3 +15,17 @@ If you wanna add latex formula in Blog with Markdown, add code block below at th
     </script>
 </head>
 ```
+
+Insert a picture in the text and center it
+
+```html
+<div align=center>
+    <img src=".\pic\20210708薄透镜图示.png" width="600"/>
+</div>
+```
+
+Text background color settings
+
+```html
+<table><tr><td bgcolor="gray">TEXT</td></tr></table>
+```
