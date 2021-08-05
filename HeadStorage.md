@@ -20,7 +20,7 @@ Insert a picture in the text and center it
 
 ```html
 <div align=center>
-    <img src="source" width="600"/>
+    <img src="source" width="300"/>
 </div>
 ```
 
