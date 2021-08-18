@@ -40,7 +40,7 @@ redirect_from:
 </head>
 ```
 
-【问题二】对于绝对值符号 “$\left|\right|$” 被识别为表格分隔符。例子：$\left|a\right|$
+【问题二】对于绝对值符号 “ $\left|\right|$ ” 被识别为表格分隔符。例子： $\left|a\right|$
 
 > 行内 latex 公式会出现此问题，行间 latex 并不会出现此问题。
 
