@@ -3,7 +3,7 @@ layout: post
 title: "集成传感器（01） 清华大学"
 description: "集成传感器 - 清华大学，学堂在线"
 categories: [Optic]
-tags: [Optic, THU]
+tags: [Sensor, THU]
 redirect_from:
   - /2021/09/11/
 ---
