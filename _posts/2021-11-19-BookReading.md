@@ -5,7 +5,7 @@ description: "《白话大数据与机器学习》读书笔记"
 categories: [Book]
 tags: [《白话大数据与机器学习》]
 redirect_from:
-  - /2021/11/19/
+  - /2021/11/21/
 ---
 
 <head>
