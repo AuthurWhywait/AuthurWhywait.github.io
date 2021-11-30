@@ -38,9 +38,15 @@ $$
 
 ## Part 1: the Column Space of a Matrix
 
-Rotation matrix $\begin{bmatrix}
+Rotation matrix 
+
+$$
+\begin{bmatrix}
     \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta
-\end{bmatrix}$ is an orthogonal matrix that rotates the plane.
+\end{bmatrix}
+$$
+
+is **an orthogonal matrix** that rotates the plane.
 
 $$
 \begin{aligned}
@@ -116,10 +122,13 @@ $$
 
 and we can know that **$x$ is orthogonal to every row of $A$**.
 
-> $\begin{bmatrix}
-> ~\\ x\\~
-> \end{bmatrix}$ means that $x$ is a column of numbers.
->
+$$
+\begin{bmatrix}
+    ~\\ x\\~
+\end{bmatrix}$$
+
+means that $x$ is a column of numbers.
+ 
 > If a row dot product with a column, gives me a **zero**, then in n-dimensional space, that row is perpendicular, 90 degree angle to that column $x$.
 
 - Every $x$ in the nullspace of $A$ is orthogonal to the row space of $A$.
