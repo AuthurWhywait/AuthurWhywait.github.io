@@ -125,7 +125,8 @@ and we can know that **$x$ is orthogonal to every row of $A$**.
 $$
 \begin{bmatrix}
     ~\\ x\\~
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 means that $x$ is a column of numbers.
  
