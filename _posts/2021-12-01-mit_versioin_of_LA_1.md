@@ -3,7 +3,7 @@ layout: post
 title: "MIT A 2020 Vision of Linear Algebra (2/2)"
 description: "MIT A 2020 Vision of Linear Algebra, Spring 2020 (2/2)"
 categories: [Youtube_courses]
-tags: [Linear Algebra]
+tags: [Linear Algebra, MIT]
 redirect_from:
   - /2021/12/01/
 ---
