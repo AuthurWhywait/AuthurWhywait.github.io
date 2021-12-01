@@ -34,7 +34,7 @@ What's Deep Learning?
 
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201154232.png" width=600/></div>
 
-### The PerceptronP: The structural building block of deep learning
+### The Perceptron: The structural building block of deep learning
 
 The perceptron: **Forward Propagation**.
 
