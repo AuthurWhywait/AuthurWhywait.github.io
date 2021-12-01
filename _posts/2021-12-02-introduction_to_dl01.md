@@ -20,7 +20,7 @@ redirect_from:
     </script>
 </head>
 
-> If you wanna see the original video, click *[MIT Introduction to Deep Learning | 6.S191](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)*.
+> If you wanna see the original video, click *[MIT Introduction to Deep Learning $\vert$ 6.S191](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)*.
 
 ## Lecture 1: Foundations of Deep Learning
 
