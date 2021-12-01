@@ -186,7 +186,7 @@ loss = tf.keras.losses.MSE( y, predicted )
 
 $$
 \begin{aligned}
-    W^*&=\argmin_W\frac{1}{n}\sum_{i=1}^n\mathcal{L}(f(x^{(i)};W),y^{(i)})\\&=\argmin_W \mathbf{J(W)}
+    W^*&=\underset{W}{\text{argmin}}\frac{1}{n}\sum_{i=1}^n\mathcal{L}(f(x^{(i)};W),y^{(i)})\\&=\underset{W}{\text{argmin}} \mathbf{J(W)}
 \end{aligned}
 $$
 
