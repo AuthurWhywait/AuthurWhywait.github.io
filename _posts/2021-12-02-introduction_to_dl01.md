@@ -32,7 +32,7 @@ What's Deep Learning?
 
 **How is deep learning is different from traditional machine learning?** Traditionally, machine learning algorithms define a set of features of the data, usually these are features that are handcrafted or hand engineered and as a result they tend to be pretty brittle in practice when they're deployed. **The key idea** of deep learning is to **learn these features directly from data** in a **hierarchical manner** that is can we learn if we want to learn. (the explanation of word "hierarchical" is below)
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201154232.png" width=600/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201154232.png" width="95%"/></div>
 
 ### The Perceptron: The structural building block of deep learning
 
@@ -46,7 +46,7 @@ $$
 \end{bmatrix}
 $$
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201154103.png" width=200/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201154103.png" width="50%"/></div>
 
 - $g$ is Non-Linearity, which one of its examples is a sigmoid function
 
@@ -76,7 +76,7 @@ tf.nn.relu(z)
 
 Non-linearities allow us to approximate arbitrarily complex functions.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201153828.png" width=400/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201153828.png" width="80%"/></div>
 
 ### Building Neural Networks with Perceptrons
 
@@ -101,7 +101,7 @@ class MyDenseLayer(tf.keras.layers.Layer):
 
 Multi Output Perceptron.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201160202.png" width=200/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201160202.png" width="40%"/></div>
 
 ```python
 import tensorflow as tf
@@ -113,9 +113,9 @@ layer = tf.keras.layers.Dense(units=2)
 
 Single Layer Neural Network.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201161235.png" width=400/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201161235.png" width="80%"/></div>
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201161905.png" width=240/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201161905.png" width="50%"/></div>
 
 ```python
 import tensorflow as tf
@@ -128,7 +128,7 @@ model = tf.keras.Sequential([
 
 Deep Neural Network.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201162302.png" width=400/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201162302.png" width="80%"/></div>
 
 ```python
 import tensorflow as tf
@@ -192,7 +192,7 @@ $$
 
 <table><tr><td bgcolor="yellow"><b>REMEMBER:</b> Our loss is a function of the network weights.</td></tr></table>
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201185734.png" width=500/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201185734.png" width="90%"/></div>
 
 **Gradient Descent**. Algorithm
 
@@ -311,7 +311,7 @@ It will be fast to compute and a much better estimate of the true gradient.
 
 the problem of overfitting.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201195557.png" width=500/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201195557.png" width="80%"/></div>
 
 **Regularization.** it's a technique that constrains our optimization problem to discourage complex models. The **goal** is to improve the generalization of our model on unseen data. (Specific Regularization methods are shown below.)
 
@@ -321,6 +321,6 @@ the problem of overfitting.
    3. `tf.keras.layers.Dropout(p=0.5)`
 2. **Early Stopping**. Stop training before we have a chance to overfit.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201200735.png" width=400/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211201200735.png" width="90%"/></div>
 
 <!-- <div align="center"><img src="" width=400/></div> -->
