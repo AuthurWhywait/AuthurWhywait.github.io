@@ -22,6 +22,18 @@ redirect_from:
 
 > If you wanna see the original video, click *[MIT 6.S191: Recurrent Neural Networks](https://www.youtube.com/watch?v=qjrad0V0uJE&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=2)*.
 
+---
+
+## Deep Learning for Sequence Modeling: Summary
+
+1. RNNs are well suited for **sequence modeling** tasks
+2. Model sequences via a **recurrence relation**
+3. Training RNNs with **backpropagation through time**
+4. Gated cells like **LSTMs** let us model **long-term dependencies**
+5. Models for **music generation**, classification, machine translation, and more.
+
+---
+
 ## Lecture 2: Deep Sequence Modeling
 
 Sequence Modeling Applications.
@@ -219,7 +231,6 @@ To overcome these potential limitations, a method that't called **attention** wa
 **Attention mechanisms** in neural networks provide learnable memory access. The system is called attention, because when the network is actually learning the weighting, it's learning to **place its attention on different parts of the input sequence** to effectively **capture a sort of accessible memory** across the entirety of the original sequence.
 
 It's a powerful idea and indeed it's the basis of a new class and then rapidly emerging class of models that are extremely powerful for **large scale sequential modeling problems** and that class of models is called **transformers**.
-
 <!-- 
 
 <div align="center"><img src="" width="60%"/></div> -->
