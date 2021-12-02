@@ -189,7 +189,7 @@ How do LSTMs work?
             1.<img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170304.png" width="80%"/><br/><br/>2. <img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170357.png" width="80%"/>
         </td>
         <td align="left" width="50%">
-            1. <img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170441.png" width="80%"/><br/>4. <img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170734.png" width="80%"/>
+            3. <img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170441.png" width="80%"/><br/>4. <img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211202170734.png" width="80%"/>
         </td>
     </tr>
 </table>
@@ -231,6 +231,3 @@ To overcome these potential limitations, a method that't called **attention** wa
 **Attention mechanisms** in neural networks provide learnable memory access. The system is called attention, because when the network is actually learning the weighting, it's learning to **place its attention on different parts of the input sequence** to effectively **capture a sort of accessible memory** across the entirety of the original sequence.
 
 It's a powerful idea and indeed it's the basis of a new class and then rapidly emerging class of models that are extremely powerful for **large scale sequential modeling problems** and that class of models is called **transformers**.
-<!-- 
-
-<div align="center"><img src="" width="60%"/></div> -->
