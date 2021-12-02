@@ -231,3 +231,7 @@ To overcome these potential limitations, a method that't called **attention** wa
 **Attention mechanisms** in neural networks provide learnable memory access. The system is called attention, because when the network is actually learning the weighting, it's learning to **place its attention on different parts of the input sequence** to effectively **capture a sort of accessible memory** across the entirety of the original sequence.
 
 It's a powerful idea and indeed it's the basis of a new class and then rapidly emerging class of models that are extremely powerful for **large scale sequential modeling problems** and that class of models is called **transformers**.
+
+---
+
+A very interesting video on Youtube: [MariFlow - Self-Driving Mario Kart w/Recurrent Neural Network](https://www.youtube.com/watch?v=Ipi40cb_RsI)
