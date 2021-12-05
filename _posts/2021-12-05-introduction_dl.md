@@ -26,7 +26,7 @@ redirect_from:
 
 ## Summary
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201824.png", width=600/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201824.png", width="80%"/></div>
 
 ---
 
@@ -34,7 +34,7 @@ redirect_from:
 
 To computers, images are just numbers.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203131716.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203131716.png" width=80%/></div>
 
 - **Regression**: output variable takes continuous value
 - **Classification**: output variable takes class label. Can produce probability of belonging to a particular class.
@@ -47,7 +47,7 @@ Learning Feature Representations. Can we learn a **hierarchy of features** direc
 
 **Fully Connected Neural Network** (Dense Neural Network).
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203133308.png", width=40%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203133308.png" width=40%/></div>
 
 **Input.**
 
@@ -66,7 +66,7 @@ So, how can we use **spatial structure in the input** to inform the architecture
 
 IDEA: **connect patches of input** to neurons in hidden layer. neuron connected to region of input. Only "sees" these values.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203143014.png", width=40%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203143014.png" width=40%/></div>
 
 > One way we can use the spatial structure would be to actually connect patches of our input. Not the whole input but just patches of the input to neurons in the hidden layer. So **before, everything was connected from the input layer to the hidden layer, but now we're just gonna connect only things that are within a single patch to the next neuron in the next layer.** Each neuron only sees the values coming from the patch that precedes it.
 >
@@ -76,13 +76,13 @@ IDEA: **connect patches of input** to neurons in hidden layer. neuron connected 
 
 **Connect patch in input layer to a single neuron in subsequent layer.**
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203150652.png", width=70%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203150652.png" width=70%/></div>
 
 > We can basically do this by sliding that patch across the input image. For **each time we slide it, we're going to have a new output neuron in the subsequent layer**. This way, we can actually take into account some of the spatial structure that inherent to our input, but remember that our **ultimate task** is not only to preserve spatial structure but to actually learn the visual features. And we do this by **weighting the connections between the patches and the neurons**.
 
 In practice, there's an operation called a **convolution**.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203151545.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203151545.png" width=80%/></div>
 
 - Apply a set of weights - a filter - to **extract local features**
 - Use **multiple filters** to extract different features
@@ -92,11 +92,11 @@ In practice, there's an operation called a **convolution**.
 
 Image is represented as **matrix of pixel values** and computers are literal! We want to be able to classify an X as an X even if it's shifted, shrunk, rotated, deformed.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203152216.png", width=40%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203152216.png" width=40%/></div>
 
 We want our model to basically compare images of a piece of an X (piece by piece) and the really important pieces that it should look for are exactly what we've been calling the **features**. If our model can find those important (and rough) features that define the X roughly in the same positions, it can get a lot better at understanding the similarity between different examples of X even in the presence of these types of deformities.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203153044.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203153044.png" width=80%/></div>
 
 **The Convolution Operation**. We slide the $3\times 3$ filter over the input image, element-wise multiply, and add the outputs:
 
@@ -121,13 +121,13 @@ We want our model to basically compare images of a piece of an X (piece by piece
 
 **Producing Feature Maps**. Different filter can be used to produce different feature maps.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203161758.png", width=70%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203161758.png" width=70%/></div>
 
 ## 4. Convolutional Neural Networks (CNNs)
 
 **CNNs for Classification**.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203162527.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203162527.png" width=80%/></div>
 
 1. **Convolution**: Apply filters to generate feature maps.
 2. **Non-linearity**: Often `ReLU`.
@@ -149,7 +149,7 @@ For a neuron in hidden layer:
 
 In the dense layers, we'll need to add on a bias to allow us to shift the activation function, apply and activate it with some non-linearity, so that we can handle non-linear data relationship.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203165108.png", width=40%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203165108.png" width=40%/></div>
 
 What's special here is that the local connectivity is preserved each neuron in the hidden layer you can see in the right **only sees a very specific patch of its inputs**. It does not see the entire input neurons like it would have if it was a fully connected layer.
 
@@ -168,7 +168,7 @@ Previously, we know how to take input image and learn a single feature map. But 
 
 Now the output layer is still convolution but now it has a **volume dimension** where the height and the width are spatial dimensions dependent upon the dimensions of the input layer.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203183318.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203183318.png" width=90%/></div>
 
 ### 4.2 Introducing Non-Linearity
 
@@ -179,7 +179,7 @@ Now the output layer is still convolution but now it has a **volume dimension** 
 tf.keras.layers.ReLU
 ```
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203183940.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203183940.png" width=80%/></div>
 
 ### 4.3 Pooling
 
@@ -187,7 +187,7 @@ Pooling is an operation that is commonly used to reduce the dimentionality of ou
 
 Now, a common technique and a common type of pooling that is commonly used in practice is called **Max Pooling**.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203184438.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211203184438.png" width=90%/></div>
 
 **Max Pooling**.
 
@@ -213,7 +213,7 @@ The CNNs for classification can be broken down into two parts.
 
 #### 4.4.1 Part 1
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205111135.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205111135.png" width=90%/></div>
 
 First is the **Feature Learning** part where we actually try to learn the features in our input image that can be used to perform our specific task. The feature learning part is actually mentioned before in this blog.
 
@@ -225,7 +225,7 @@ Feature Learning:
 
 #### 4.4.2 Part 2
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205111306.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205111306.png" width=90%/></div>
 
 The convolutional layers and pooling provide those the output excuse me of the first part is those high-level features of the input. The **second part is actually using these features to perform our classification or whatever our task is in this case**. The task is to output the class probabilities that are present in the input image. So we feed those outputted features into a fully connected or dense neural network to perform the classification. We can do this now and don't mind about **losing spatial invariance** because we've already down sampled our images so much that it's not really even an image anymore, it's actually closer to a vector of numbers, and we can directly apply our dense neural network to that vector of numbers. It's also much lower dimensional now. And We can output a class of **probabilities** using a function called **softmax** whose **output actually represents a categorical probability distribution**.
 
@@ -273,7 +273,7 @@ Task can be
 
 ### 5.1 Object Detection
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205192844.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205192844.png" width=80%/></div>
 
 **A naive solution**. We can start by placing a **random** box over the input image somewhere. It has some random location, it also has a random size. Then we can take that box and feed it through our normal image classification network. This network's task is to predict what is the class of this image. If there is no class of this box then it simply can ignore it. We repeat this process then we pick another box in the scene and we pass that through network to predict its class and we can keep doing this with different boxes in the scene... In some sense if each of these boxes give us a prediction class we can pick the boxes that do have a class in them and use those as a box where an object is found. Problem: there are way too many inputs, this basically results in boxes and considering a number of boxes that have way too many scales, way to many positions, too many sizes. We can't possibly iterate over our images in all of these dimensions.
 
@@ -281,7 +281,7 @@ Task can be
 
 R-CNN algorithm: Find regions that we think have objects. Use CNN to classify.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205194412.png", width=70%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205194412.png" width=70%/></div>
 
 Problems:
 
@@ -290,7 +290,7 @@ Problems:
 
 #### 5.1.2 Faster R-CNN Learns Region Proposals
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205195354.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205195354.png" width=90%/></div>
 
 Advantages: It only requires a single forward pass through the model. We only feed in this image once, we have a region proposal network that extracts the regions, and all of these regions are fed on to perform classification on the rest of the image.
 
@@ -300,7 +300,7 @@ FCN: Fully Convolutional Network
 
 Network designed with all convolutional layers, with downsampling and upsampling operations.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205195841.png", width=80%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205195841.png" width=80%/></div>
 
 This output is created using an upsampling operation not a downsampling operation. But upsampling allow the convolutional decoder to actually increase its spatial dimension.
 
@@ -312,6 +312,6 @@ tf.keras.layers.Conv2DTranspose
 
 End-to-End Framework for Autonomous Navigation. Entire model is trained end-to-end **without any human labelling or annotations**.
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201526.png", width=90%/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201526.png" width=90%/></div>
 
 <!-- <div align="center"><img src="", width=50%/></div> -->
