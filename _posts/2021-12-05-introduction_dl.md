@@ -26,7 +26,7 @@ redirect_from:
 
 ## Summary
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201824.png", width="80%"/></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20211205201824.png", width=600/></div>
 
 ---
 
