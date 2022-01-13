@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github: Failed to connect to 127.0.0.1 port 10809: Connection refused"
+title: "Github. Failed to connect to 127.0.0.1 port 10809: Connection refused"
 description: "github desktop 上传及下载问题"
 categories: [Github]
 tags: [Problem Solving]
