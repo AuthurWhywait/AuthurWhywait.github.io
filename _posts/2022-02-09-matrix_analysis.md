@@ -20,8 +20,6 @@ redirect_from:
     </script>
 </head>
 
-{% include JB/setup %}
-* 目录
 {:toc}
 
 ## 1. 子空间的基
