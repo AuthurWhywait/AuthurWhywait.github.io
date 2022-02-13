@@ -48,7 +48,7 @@ redirect_from:
 
 【**子空间的直和**】无交连的子空间的并 $S=S_1\cup S_2\cup ...\cup S_n$，记作：$S=S_1\oplus S_2\oplus ...\oplus S_n$
 
-【**正交子空间**】子空间$S_1,S_2,...,S_n$为正交子空间，记作$S_i\perp S_j, i\ne j$，若$a_i\prep a_j$对所有$a_i\in S_i,a_j\in S_j(i\ne j)$ 恒成立。
+【**正交子空间**】子空间$S_1,S_2,...,S_n$为正交子空间，记作$S_i\perp S_j, i\ne j$，若$a_i\perp a_j$对所有$a_i\in S_i,a_j\in S_j(i\ne j)$ 恒成立。
 
 > 若一向量与子空间$S$的所有向量都正交，则称该向量**正交**于子空间$S$。
 
