@@ -166,11 +166,11 @@ $$
 
 [1] 张贤达. (2004). 矩阵分析与应用. 清华大学出版社有限公司.
 
-[2] 在数学中，什么是复共轭？, from netinbag.com: https://www.netinbag.com/cn/science/in-mathematics-what-is-a-complex-conjugate.html
+[2] 在数学中，什么是复共轭？, from netinbag.com: [https://www.netinbag.com/cn/science/in-mathematics-what-is-a-complex-conjugate.html](https://www.netinbag.com/cn/science/in-mathematics-what-is-a-complex-conjugate.html)
 
-[3] 共轭转置, from 百度百科: https://baike.baidu.com/item/%E5%85%B1%E8%BD%AD%E8%BD%AC%E7%BD%AE/6285404
+[3] 共轭转置, from 百度百科: [https://baike.baidu.com/item/%E5%85%B1%E8%BD%AD%E8%BD%AC%E7%BD%AE/6285404](https://baike.baidu.com/item/%E5%85%B1%E8%BD%AD%E8%BD%AC%E7%BD%AE/6285404)
 
-[4] QR分解, from 维基百科: https://zh.wikipedia.org/wiki/QR%E5%88%86%E8%A7%A3
+[4] QR分解, from 维基百科: [https://zh.wikipedia.org/wiki/QR%E5%88%86%E8%A7%A3](https://zh.wikipedia.org/wiki/QR%E5%88%86%E8%A7%A3)
 
-[5] 格拉姆-施密特正交化, from 维基百科: https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%A7%86-%E6%96%BD%E5%AF%86%E7%89%B9%E6%AD%A3%E4%BA%A4%E5%8C%96
+[5] 格拉姆-施密特正交化, from 维基百科: [https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%A7%86-%E6%96%BD%E5%AF%86%E7%89%B9%E6%AD%A3%E4%BA%A4%E5%8C%96](https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%A7%86-%E6%96%BD%E5%AF%86%E7%89%B9%E6%AD%A3%E4%BA%A4%E5%8C%96)
 
