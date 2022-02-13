@@ -104,6 +104,14 @@ $$
 
 【正交投影算子的唯一性】到一个子空间的正交投影算子是唯一确定的。
 
+令 $n\times r$矩阵$W$具有满列秩，其列空间$H=Col(W)$，并令$x$为$\mathcal{C}^n$空间的一任意向量，则 $x$ 到 $H$ 子空间的投影为
+
+$$
+P_Hx=W(W^HW)^{-1}W^Hx
+$$
+
+通过验证可以发现 $P_H=W(W^HW)^{-1}W^H$ 满足定义8.1.5中的三个条件，故而可知 $P_H$为正交投影因子。
+
 【斜投影算子】如果子空间$H$与$S$不正交，则$P_{S\vert H}x$称为向量$x$沿着子空间$H$的方向，到子空间$S$的斜投影，并称$P_{S\vert H}x$为斜投影算子。
 
 <div align=center><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220211191017.png"/></div>
