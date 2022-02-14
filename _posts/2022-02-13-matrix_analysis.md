@@ -67,7 +67,13 @@ $$
 \end{aligned}
 $$
 
-如果，$R=E\{A^HA\},E\{W^HW\}=\sigma_w^2I,rank(A)=r$，则有
+如果满足下列条件
+
+$$
+R=E\{A^HA\},E\{W^HW\}=\sigma_w^2I,rank(A)=r
+$$
+
+则有
 
 $$
 \begin{aligned}
