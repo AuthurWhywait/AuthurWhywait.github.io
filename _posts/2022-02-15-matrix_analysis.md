@@ -49,6 +49,7 @@ $$
 
 - 如果矩阵 $W_{n\times r}$ 满足正交约束，该矩阵 $W_{n\times r}$ 被称为**半正交矩阵；**
 - $Q_{r\times r},Q^HQ=I$表示 $Q$ 是一个 $r\times r$ 的正交矩阵；
+- 齐次，指的是所列的式子只和 $x^n,y^n$ 相关，不存在 $x^m,y^l(m\ne n, l\ne n)$ 的项，包括常数项也只有 $0$。$^{[4]}$
 
 ### 正交矩阵和半正交矩阵的区别$^{[2]}$
 
@@ -234,6 +235,8 @@ $^{[n]}$ -->
 [2] Leon晋. (2021, May 25). 半正交矩阵的含义是什么？ Retrieved February 15, 2022, from 知乎: [https://www.zhihu.com/question/461150139/answer/1903508845](https://www.zhihu.com/question/461150139/answer/1903508845)
 
 [3] 标量场, from 百度百科: [https://baike.baidu.com/item/%E6%A0%87%E9%87%8F%E5%9C%BA/9811898](https://baike.baidu.com/item/%E6%A0%87%E9%87%8F%E5%9C%BA/9811898)
+
+[4] lyounger. (2014, December 5). 齐次性到底描述了什么? Retrieved February 15, 2022, from 知乎: [https://www.zhihu.com/question/25552461](https://www.zhihu.com/question/25552461)
 
 ## 附录
 
