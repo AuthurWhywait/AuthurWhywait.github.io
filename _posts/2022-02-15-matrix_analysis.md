@@ -3,7 +3,7 @@ layout: post
 title: "子空间分析与跟踪（4） —— Grassmann流形和Stiefel流形"
 description: "子空间分析与跟踪（4） —— Grassmann流形和Stiefel流形"
 categories: [Math]
-tags: [Notes, 《矩阵分析与应用》, MatrixAnalysis]
+tags: [Notes, 《矩阵分析与应用》, MatrixAnalysis, Grassmann, Stiefel]
 redirect_from:
   - /2022/02/15/
 ---
