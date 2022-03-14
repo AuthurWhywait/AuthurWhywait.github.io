@@ -48,7 +48,7 @@ redirect_from:
 
 $$
 y[n]=\sum_{k=-\infty}^\infty x[k]h[n-k]=x[n]\ast h[n]\\
-y(t)=\int_{k=-\infty}^\infty x(\tau)h(t-\tau)d\ast = x(t)\ast h(t)
+y(t)=\int_{k=-\infty}^\infty x(\tau)h(t-\tau)d\tau = x(t)\ast h(t)
 $$
 
 用线性常系数微分方程来描述连续时间系统，用线性常系数差分方程来描述离散时间系统。
