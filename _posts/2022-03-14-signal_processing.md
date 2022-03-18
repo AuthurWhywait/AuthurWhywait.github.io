@@ -110,8 +110,8 @@ $$
 在一个周期信号的傅立叶级数表示中，当周期增加时，基波频率就会减小，当周期趋于无穷大时，成谐波关系的各分量在频率上就是连续的，傅立叶级数的求和也就变成了积分。
 
 $$
-x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(j\omega)e^{j\omega}d\omega\\
-X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega}dt
+x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(j\omega)e^{j\omega t}d\omega\\
+X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt
 $$
 
 其中，$X(j\omega)$称为$x(t)$的频域，告诉我们将$x(t)$表示为**不同频率正弦信号的线性组合**所需要的信息。
