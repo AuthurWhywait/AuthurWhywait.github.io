@@ -122,4 +122,4 @@ $$
 
 <!-- <iframe src="https://ethz.ch/content/dam/ethz/special-interest/baug/ibk/structural-mechanics-dam/education/identmeth/fourier.pdf" style="width:95%; height:2000px;" frameborder="0"></iframe> -->
 
-<iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/_posts/pdf/fourier.pdf" style="width:95%; height:2000px;" frameborder="0"></iframe>
+<iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/_posts/pdf/fourier.pdf" style="width:95%; height:1300px;" frameborder="0"></iframe>
