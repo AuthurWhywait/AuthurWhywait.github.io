@@ -120,6 +120,6 @@ $$
     This browser does not support PDFs. Please download the PDF to view it: <a :href="/pdf/fourier.pdf">Download PDF</a>
 </object> -->
 
-<!-- <iframe src="https://ethz.ch/content/dam/ethz/special-interest/baug/ibk/structural-mechanics-dam/education/identmeth/fourier.pdf" style="width:95%; height:55%;" frameborder="0"></iframe> -->
+<iframe src="https://ethz.ch/content/dam/ethz/special-interest/baug/ibk/structural-mechanics-dam/education/identmeth/fourier.pdf" style="width:95%; height:55%;" frameborder="0"></iframe>
 
-<iframe src="_posts\pdf\fourier.pdf" style="width:95%; height:55%;" frameborder="0"></iframe>
+<!-- <iframe src="_posts\pdf\fourier.pdf" style="width:95%; height:55%;" frameborder="0"></iframe> -->
