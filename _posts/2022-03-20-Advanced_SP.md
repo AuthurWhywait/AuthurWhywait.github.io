@@ -114,6 +114,6 @@ $$
 
 ## Useful table
 
-<center><embed src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/pdf/fourier.pdf" width="850" height="600"></center>
+<center><embed src="/pdf/fourier.pdf" width="850" height="600"></center>
 
 <!-- <iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/pdf/fourier.pdf" style="width:95%; height:400;" frameborder="0"></iframe> -->
