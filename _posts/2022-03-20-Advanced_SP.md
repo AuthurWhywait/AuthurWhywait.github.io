@@ -116,8 +116,8 @@ $$
 
 <!-- <center><embed src="/pdf/fourier.pdf" width="850" height="600"></center> -->
 
-<object :src="/pdf/fourier.pdf" width="100%" height="100%">
+<!-- <object :src="/pdf/fourier.pdf" width="100%" height="100%">
     This browser does not support PDFs. Please download the PDF to view it: <a :href="/pdf/fourier.pdf">Download PDF</a>
-</object>
+</object> -->
 
-<!-- <iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/pdf/fourier.pdf" style="width:95%; height:400;" frameborder="0"></iframe> -->
+<iframe src="https://ethz.ch/content/dam/ethz/special-interest/baug/ibk/structural-mechanics-dam/education/identmeth/fourier.pdf" style="width:95%; height:600;" frameborder="0"></iframe>
