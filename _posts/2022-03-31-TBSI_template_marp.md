@@ -44,7 +44,7 @@ redirect_from:
 
 ## 预览
 
-<iframe src="https://authurwhywait.github.io/pdfs/template_TBSI.pdf" style="width:95%; height:600px;" frameborder="0"></iframe>
+<iframe src="https://authurwhywait.github.io/pdfs/template_TBSI.pdf" style="width:95%; height:620px;" frameborder="0"></iframe>
 
 ## 源码
 
