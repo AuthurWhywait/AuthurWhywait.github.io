@@ -120,6 +120,6 @@ $$
     This browser does not support PDFs. Please download the PDF to view it: <a :href="/pdf/fourier.pdf">Download PDF</a>
 </object> -->
 
-<iframe src="_posts\pdf\fourier.pdf" frameborder="0"></iframe>
+<iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/raw/master/_posts/pdf/fourier.pdf" frameborder="0"></iframe>
 
 <!-- <iframe src="https://github.com/AuthurWhywait/AuthurWhywait.github.io/blob/master/_posts/pdf/fourier.pdf" style="width:95%; height:1300px;" frameborder="0"></iframe> -->
