@@ -29,3 +29,9 @@ Text background color settings
 ```html
 <table><tr><td bgcolor="gray">TEXT</td></tr></table>
 ```
+
+pdf
+
+```html
+<iframe src="https://authurwhywait.github.io/pdfs/fourier.pdf" style="width:95%; height:1300px;" frameborder="0"></iframe>
+```
