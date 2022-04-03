@@ -151,7 +151,7 @@ print(diff(g, x, 2, y, 4))
 
 ### Integration
 
-$$\int_{-\infty}^0e^x=1$$
+$$\int_{-\infty}^0e^x$$
 
 ```python
 f = exp(x)
