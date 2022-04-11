@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Hierarchical Clustering"
+title: "Hierarchical Clustering (Python)"
 description: "The whole project using Hierarchical Clustering"
 categories: [MachineLearning]
-tags: [Code, Python, Clustering]
+tags: [Code, Python, Clustering, Unsupervised Learning]
 redirect_from:
   - /2022/04/10/
 ---
