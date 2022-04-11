@@ -39,7 +39,29 @@ In the field of machine learning (a form of artificial intelligence), clustering
 
 ### Read Data
 
-- Convert the `xlsx` file containing the original data to a `csv` file, and then read it.
+In this project, I got several `xlsx` files.
+
+#### Read xlsx file
+
+```py
+import xlrd
+file_location = ".../file_name.xlsx"
+data = xlrd.open_workbook(file_location)
+```
+
+For a `xlsx` file, it may not contain only one sheet, so we can use `.sheet_by_index()` to assign the sheet to a variable like `sheet_0` below. And it should not be neglected that the index of the sheet start from `0`.
+
+```py
+sheet_0 = data.sheet_by_index(0)
+```
+
+#### Covert to csv file and read it
+
+Convert the `xlsx` file containing the original data to a `csv` file, and then read it.
+
+A xlsx file may contain several sheets, then we can use  `index_col`, while the index of sheets start from `0` as well.
+
+> For example, in the codes below, we choose the second sheet in the `xlsx` file and convert it to a csv file.
 
 ```python
 import pandas as pd
@@ -56,7 +78,7 @@ data_0 = pd.read_csv('.../file.csv')
 
 ### Preprocessing data
 
-- Delete some columns in the data frame named `data_0`.
+Delete some columns in the data frame named `data_0`.
 
 ```py
 del data_0['the name of the column you wanna delete']
@@ -64,7 +86,7 @@ del data_0['the name of the column you wanna delete']
 del data_0['2类'], data_0['3类'], data_0['4类'], data_0['公司名称']
 ```
 
-- Get the shape of a data frame: `[number of rows, number of cols]`
+Get the shape of a data frame: `[number of rows, number of cols]`
 
 ```py
 data_0.shape
