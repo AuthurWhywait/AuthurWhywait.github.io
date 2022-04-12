@@ -27,7 +27,7 @@ from Employees
 
 ## CASE ... END
 
-If choices is more then two, CASE is good choice., shown below.
+If choices are more then two, CASE is good choice., shown below.
 
 ```sql
 case
