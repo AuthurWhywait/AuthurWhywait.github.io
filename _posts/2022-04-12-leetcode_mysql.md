@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MySQL: Ordering and Modification"
+title: "MySQL: 排序, 修改"
 description: "notes of coding in Leetcode"
 categories: [MySQL]
 tags: [Leetcode, Notes]
