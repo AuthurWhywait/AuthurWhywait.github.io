@@ -103,7 +103,7 @@ order by user_id
 
 根据字典序排列，升序
 
-```SQL
+```sql
 ORDER BY PRODUCT ASC
 ```
 
@@ -111,7 +111,7 @@ ORDER BY PRODUCT ASC
 
 The following SQL statement selects only the DISTINCT values from the "Country" column in the "Customers" table:
 
-```SQL
+```sql
 SELECT DISTINCT Country FROM Customers;
 ```
 
@@ -121,7 +121,7 @@ The GROUP BY statement groups rows that have the same values into summary rows, 
 
 The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
 
-```SQL
+```sql
 SELECT column_name(s)
 FROM table_name
 WHERE condition
@@ -131,7 +131,7 @@ ORDER BY column_name(s);
 
 把每一个组中的str组合成一个str，并且用`,`隔开。
 
-```SQL
+```sql
 GROUP_CONCAT(DISTINCT PRODUCT, ORDER BY PRODUCT ASC SEPARATOR ',')
 ```
 
