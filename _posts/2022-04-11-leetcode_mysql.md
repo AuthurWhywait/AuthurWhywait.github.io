@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MySQL: SELECT"
+title: "MySQL: 选择"
 description: "notes of coding in Leetcode"
 categories: [MySQL]
 tags: [Leetcode, Notes]
