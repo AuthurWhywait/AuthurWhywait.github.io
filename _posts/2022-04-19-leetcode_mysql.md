@@ -35,7 +35,7 @@ redirect_from:
 - datediff(日期1, 日期2)：得到的结果是日期1与日期2相差的天数。如果日期1比日期2大，结果为正；如果日期1比日期2小，结果为负。
 - timestampdiff(时间类型, 日期1, 日期2)：这个函数和上面diffdate的正、负号规则刚好相反。日期1大于日期2，结果为负，日期1小于日期2，结果为正。
 
-<div align=center><img src="https://pic.leetcode-cn.com/006f72189f8a62549e64a2236cc9dc03d484e914e49dfa4d7a061f0e758983e4-1.png" width=600px/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220420184139.png" width=600px/></div>
 
 ## ON vs WHERE
 
