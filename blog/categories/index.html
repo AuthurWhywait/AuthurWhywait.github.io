@@ -7,9 +7,11 @@ group: navigation
 ---
 {% capture categories %}
     {% for category in site.categories %}
-        {{ category[0] }}
+        {{ category[0] | replace:' ','&#32;' }}
     {% endfor %}
 {% endcapture %}
+
+<!-- {{ category[0] }} -->
 
 {% assign sorted_categories = categories | split:' ' | sort %}
 
@@ -19,9 +21,9 @@ group: navigation
 </ul>
 
 {% for category in sorted_categories %}
-    <h3 id="{{ category | replace:' ','-' }}">{{ category }}</h3>
-    <ul class="post-list">
-        {% assign pages_list = site.categories[category] %}
-        {% include helpers/pages_list %}
-    </ul>
+<h3 id="{{ category | replace:' ','-' }}">{{ category }}</h3>
+<ul class="post-list">
+    {% assign pages_list = site.categories[category] %}
+    {% include helpers/pages_list %}
+</ul>
 {% endfor %}
