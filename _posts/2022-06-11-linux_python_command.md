@@ -75,9 +75,7 @@ python script.py -h
 python script.py --help
 ```
 
-`"a-b"`
-
-来一个更加详细的代码展示（来自YOLOv5官方源代码）：
+下面来一个更加详细的代码展示（来自YOLOv5官方源代码）：
 
 ```python
 def parse_opt():
