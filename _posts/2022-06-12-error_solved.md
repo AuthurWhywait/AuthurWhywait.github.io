@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RuntimeError: CUDA error: no kernel image is available for execution on the device"
+title: "【Error】RuntimeError: CUDA error: no kernel image is available for execution on the device"
 description: "error solving"
 categories: [Debug]
 tags: [Ubuntu, Mac]
