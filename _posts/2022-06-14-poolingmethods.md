@@ -2,8 +2,8 @@
 layout: post
 title: "Popular Pooling methods (1)"
 description: "brief review of pooling methods"
-categories: [NeuralNetwork]
-tags: [Pooling]
+categories: [DeepLearning]
+tags: [Pooling Methods]
 redirect_from:
   - /2022/06/14/
 ---
