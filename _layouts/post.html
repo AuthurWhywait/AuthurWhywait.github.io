@@ -116,7 +116,8 @@ layout: blog
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<!-- <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
+<div id="gitalk-container"></div>
 <script>
     var gitalk = new Gitalk({
         clientID: 'c5997a4ef68d75e658c7',
@@ -133,6 +134,6 @@ layout: blog
             location.reload()
         }
     }
-  // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
-  // gitalk.render('gitalk-container')
+    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
+    gitalk.render('gitalk-container')
 </script>
