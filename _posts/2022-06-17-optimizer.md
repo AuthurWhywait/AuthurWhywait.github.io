@@ -18,6 +18,27 @@ redirect_from:
             }
         });
     </script>
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: 'c5997a4ef68d75e658c7',
+            clientSecret: '77b8fd83267599e9f0eae497ba480d50764142c0',
+            repo: 'blog-comments',
+            owner: 'AuthurWhywait',
+            admin: ['AuthurWhywait'],
+            // title: location.hash.match(/#(.*?)([?]|$)/)[1],
+            // id: location.hash.match(/#(.*?)([?]|$)/)[1],
+            id: "20220617",
+        })
+        // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+        window.onhashchange = function (event) {
+            if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
+                location.reload()
+            }
+        }
+        gitalk.render('gitalk-container')
+    </script>
 </head>
 
 - Content
@@ -308,26 +329,4 @@ LazyAdam 是 Adam 优化器的一种变体，可以更高效地处理稀疏更�
 - [机器学习优化器Optimizer的总结](https://zhuanlan.zhihu.com/p/150113660)
 - [深度学习——优化器算法Optimizer详解（BGD、SGD、MBGD、Momentum、NAG、Adagrad、Adadelta、RMSprop、Adam）](https://www.cnblogs.com/guoyaohua/p/8542554.html)
 
-<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
 <div id="gitalk-container"></div>
-<script>
-    var gitalk = new Gitalk({
-        clientID: 'c5997a4ef68d75e658c7',
-        clientSecret: '77b8fd83267599e9f0eae497ba480d50764142c0',
-        repo: 'blog-comments',
-        owner: 'AuthurWhywait',
-        admin: ['AuthurWhywait'],
-        // title: location.hash.match(/#(.*?)([?]|$)/)[1],
-        // id: location.hash.match(/#(.*?)([?]|$)/)[1],
-        id: "20220617",
-    })
-    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
-    window.onhashchange = function (event) {
-        if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
-            location.reload()
-        }
-    }
-    gitalk.render('gitalk-container')
-</script>
