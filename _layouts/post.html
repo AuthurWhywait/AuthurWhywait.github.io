@@ -122,7 +122,7 @@ layout: blog
     var gitalk = new Gitalk({
         clientID: 'c5997a4ef68d75e658c7',
         clientSecret: '77b8fd83267599e9f0eae497ba480d50764142c0',
-        repo: 'blog-comment',
+        repo: 'blog-comments',
         owner: 'AuthurWhywait',
         admin: ['AuthurWhywait'],
         title: location.hash.match(/#(.*?)([?]|$)/)[1],
@@ -134,6 +134,6 @@ layout: blog
             location.reload()
         }
     }
-    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
+
     gitalk.render('gitalk-container')
 </script>
