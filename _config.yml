@@ -67,3 +67,10 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
+
+# https://github.com/gitalk/gitalk#install
+gitalk:
+  owner: AuthurWhywait
+  repo: blog-comments
+  clientID: c5997a4ef68d75e658c7
+  clientSecret: 77b8fd83267599e9f0eae497ba480d50764142c0
