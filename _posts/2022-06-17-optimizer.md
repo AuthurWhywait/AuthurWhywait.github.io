@@ -316,7 +316,7 @@ LazyAdam 是 Adam 优化器的一种变体，可以更高效地处理稀疏更�
         clientID: 'c5997a4ef68d75e658c7',
         clientSecret: '77b8fd83267599e9f0eae497ba480d50764142c0',
         repo: 'blog-comments',
-        owner: 'AuthurWhywait',
+        owner: 'authurwhywait',
         // admin: ['AuthurWhywait'],
         // title: location.hash.match(/#(.*?)([?]|$)/)[1],
         // id: location.hash.match(/#(.*?)([?]|$)/)[1],
