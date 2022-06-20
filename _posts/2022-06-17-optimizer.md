@@ -310,7 +310,7 @@ LazyAdam 是 Adam 优化器的一种变体，可以更高效地处理稀疏更�
 - [机器学习优化器Optimizer的总结](https://zhuanlan.zhihu.com/p/150113660)
 - [深度学习——优化器算法Optimizer详解（BGD、SGD、MBGD、Momentum、NAG、Adagrad、Adadelta、RMSprop、Adam）](https://www.cnblogs.com/guoyaohua/p/8542554.html)
 
-<div id="gitalk-container"></div>
+<!-- <div id="gitalk-container"></div>
 <script>
     var gitalk = new Gitalk({
         clientID: 'c5997a4ef68d75e658c7',
@@ -329,4 +329,4 @@ LazyAdam 是 Adam 优化器的一种变体，可以更高效地处理稀疏更�
     //     }
     // }
     gitalk.render('gitalk-container')
-</script>
+</script> -->
