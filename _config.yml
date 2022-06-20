@@ -67,13 +67,3 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
-
-# Gitalk
-gitalk:
-  enable: true    # 是否开启Gitalk评论
-  clientID: c5997a4ef68d75e658c7                            #生成的clientID
-  clientSecret: 77b8fd83267599e9f0eae497ba480d50764142c0    #生成的clientSecret
-  repo: blog-comments    #仓库名称
-  owner: AuthurWhywait    # github用户名
-  admin: AuthurWhywait
-  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
