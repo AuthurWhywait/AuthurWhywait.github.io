@@ -320,7 +320,7 @@ LazyAdam 是 Adam 优化器的一种变体，可以更高效地处理稀疏更�
         // admin: ['AuthurWhywait'],
         // title: location.hash.match(/#(.*?)([?]|$)/)[1],
         // id: location.hash.match(/#(.*?)([?]|$)/)[1],
-        id: "20220617",
+        id: decodeURI(window.location.pathname),
     })
     // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
     // window.onhashchange = function (event) {
