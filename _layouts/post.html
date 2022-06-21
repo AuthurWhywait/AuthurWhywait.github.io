@@ -10,6 +10,15 @@ layout: blog
                         <h1 class="entry-title" itemprop="name">{{ page.title }}</h1>
                     </div>
                 </div>
+                <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({
+                        tex2jax: {
+                        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                        inlineMath: [['$','$']]
+                        }
+                    });
+                </script>
             </header>
             <div class="bd article-content">
                 <div class="entry-content">
