@@ -8,20 +8,6 @@ redirect_from:
   - /2022/06/17/
 ---
 
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-</head>
-
 - Content
 {:toc}
 
