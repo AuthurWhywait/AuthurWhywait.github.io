@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python 对 Excel 的操作"
+title: "Python 对 Excel 文件的读写"
 description: "python 对 Excel 的操作总结"
 categories: [Python]
 tags: [Excel, Code]
