@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tricks in Cost Function, Error Measurements, Gaussian Process, Monte Carlo Integration"
+title: "Tricks in Cost Function, Error Measurements, ELBO,  Gaussian Process, Monte Carlo Integration"
 description: ""
 categories: [DeepLearning]
 tags: [Notes]
@@ -26,19 +26,25 @@ It is simple. It is because when you take the derivative of the cost function, t
 ## Different error measurements
 
 To use the NN model for regression, we might use the Euclidean loss (also known as "squared loss"),
+
 $$
 E = \frac{1}{2N}\sum_{i=1}^m\Vert \mathbf{y}_n -\hat{\bf{y}}_n\Vert^2_2
 $$
+
 where $\{\mathbf{y}_1,...,\mathbf{y}_n\}$ are $N$ outputs, and $\{\hat{\bf{y}}_1,...,\hat{\mathbf{y}}_n\}$ being the outputs of hte model with corresponding observed inputs $\{\mathbf{x}_1,...,\mathbf{x}_n\}$.
 
 To use the model for classification, predicting the probability of $\bf{x}$ being classified with label $1, ..., D$, we pass the output of the model $\hat{y}$ through an element-wise softmax function to obtain normalized scores:
+
 $$
 \hat{p}_{nd}=\frac{\exp(\hat{y}_{nd})}{\sum_{d'}\exp(\hat{y}_{nd'})}.
 $$
+
 Taking the log of this function results in a softmax loss,
+
 $$
 E=-\frac{1}{N}\sum_{n=1}^N\log (\hat{p}_n, c_n)
 $$
+
 where $c_n\in[1,2,...,D]$ is the observed class for input $n$.
 
 ## Evidence Lower Bound (ELBO)
@@ -58,20 +64,25 @@ The Gaussian Process offers desirable properties:
 ## Marginal and Conditional Gaussians
 
 Given a marginal Gaussian distribution for $x$ and a conditional Gaussian distribution for $y$ given $x$ in the form
+
 $$
 \begin{aligned}
     p(\mathbf{x}) &= \mathcal{N}(\mathbf{x}\vert\mu,\Lambda^{-1})\\
     p(\mathbf{y}\vert\mathbf{x}) &= \mathcal{N}(\mathbf{y}\vert\mathbf{Ax+b},\mathbf{L}^{-1})
 \end{aligned}
 $$
+
 the marginal distribution of $\mathbf{y}$ and the conditional distribution of $\mathbf{x}$ given $\mathbf{y}$ are given by
+
 $$
 \begin{aligned}
     p(\mathbf{y})=\mathcal{N}(y\vert\mathbf{A\mu+b, L^{-1}+A\Lambda^{-1}A^T})\\
     p(\mathbf{x}\vert\mathbf{y}) = \mathcal{N}(\mathbf{x}\vert\mathbf{\Sigma\{A^TL(y-b)+\Lambda\mu\},\Sigma})
 \end{aligned}
 $$
+
 where
+
 $$
 \mathbf{\Sigma} = (\mathbf{\Lambda + A^TLA})^{-1}.
 $$
@@ -79,10 +90,13 @@ $$
 ## Product of Gaussian Densities
 
 Let $\mathcal{N}(\mathbf{m,\Sigma})$ denote a density of $\mathbf{x}$, then
+
 $$
 \mathcal{N}_\mathbf{x}(\mathbf{m_1,\Sigma_1})\cdot\mathcal{N}_\mathbf{x}(\mathbf{m_2,\Sigma_2})=c_c\mathcal{N}_\mathbf{x}(\mathbf{m_c, \Sigma_c})
 $$
+
 while
+
 $$
 \begin{cases}
     c_c &= \mathcal{N}_{m_1}(m_2, (\Sigma_1+\Sigma_2))\\
