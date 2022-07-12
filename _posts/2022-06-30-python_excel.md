@@ -62,7 +62,7 @@ row1 = int(table0.cell_value(r, 0))
 
 ```python
 workbook = xlwt.Workbook(encoding='utf-8')
-sheet = workbook.add('sheet name')
+sheet = workbook.add_sheet('sheet name')
 
 # 行序号和列序号从 0 开始 
 sheet.write(i, j, str)
