@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cross Entropy Loss and its Derivation"
+title: "Cross Entropy Loss and its Derivations"
 description: "An introduction of Cross Entropy and some tricks"
 categories: [DeepLearning]
 tags: [Trick]
