@@ -37,7 +37,8 @@ author:
     - name: github
       url: https://github.com/AuthurWhywait
     - name: instagram
-      url: https://www.instagram.com/authur_lee/
+      url: 
+      # url: https://www.instagram.com/authur_lee/
     - name: linkedin
       url:
     - name: stackoverflow
