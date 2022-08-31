@@ -30,7 +30,7 @@ author:
   name: Authur Lee
   job_title:
   location: Shenzhen, China
-  email: yiwulichen@gmail.com
+  email: 
   social_links:
     - name: facebook
       url:
@@ -38,7 +38,6 @@ author:
       url: https://github.com/AuthurWhywait
     - name: instagram
       url: 
-      # url: https://www.instagram.com/authur_lee/
     - name: linkedin
       url:
     - name: stackoverflow
