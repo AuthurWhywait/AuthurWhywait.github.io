@@ -63,15 +63,18 @@ $$
 $$
 
 while
+
 $$
-p_t=\begin{cases}
-    p&,y=1\\
-    1-p&,o.w.
-\end{cases} \\
-\alpha_t = \begin{cases}
-    \alpha & y=1\\
-    1-\alpha &o.w.
-\end{cases}, \alpha\in[0,1]
+\begin{aligned}
+    p_t&=\begin{cases}
+        p&,y=1\\
+        1-p&,o.w.
+    \end{cases} \\
+    \alpha_t &= \begin{cases}
+        \alpha & y=1\\
+        1-\alpha &o.w.
+    \end{cases}, \alpha\in[0,1]
+\end{aligned}
 $$
 
 $\alpha_t, \gamma$ are all hyperparameters: $\alpha_t$ is a vector of weights that balances the quantities of samples with different labels, and $\gamma$ reduces the loss weight of easy examples and makes the model focus more on hard examples.
