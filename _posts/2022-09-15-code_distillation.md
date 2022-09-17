@@ -28,7 +28,7 @@ File structure
 
 ### train_config.py
 
-```python3
+```python
 """
 配置文件
 """
