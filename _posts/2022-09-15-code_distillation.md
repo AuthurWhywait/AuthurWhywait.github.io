@@ -333,6 +333,9 @@ def clf_train(model_name: str, model_path, tb_path):
     # Keras model provides this function, evaluate which returns the loss value & metrics values for the model in test mode. 
     # It has three main arguments: data, label, and verbose
     #   Details in https://keras.io/api/models/model_training_apis/
+    # print
+    #   235/235 [==============================] - 1s 4ms/step - loss: 0.2492 - acc: 0.9121
+    #   40/40 [==============================] - 0s 3ms/step - loss: 0.3300 - acc: 0.8799
     model.evaluate(train_ds)
     model.evaluate(test_ds)
 
