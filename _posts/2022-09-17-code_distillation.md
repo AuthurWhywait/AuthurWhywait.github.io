@@ -427,7 +427,7 @@ Here, alpha can be treated as a baseline, which is applied to guaranteed the lea
 <div align=center>
     <img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220916141946.png' width=400>
     <br>
-    <small>cosine_decay. Red: alpha=0.3; Blue: alpha=0.0</small>
+    <ie><small>cosine_decay. Red: alpha=0.3; Blue: alpha=0.0</small></ie>
 </div>
 
 Other learning rate decay strategy in Tensorflow can be found [HERE](https://zhuanlan.zhihu.com/p/32923584).
