@@ -1,3 +1,7 @@
+body {
+    counter-reset: h2counter;
+}
+
 h1 {
     counter-reset: h2counter;
 }
@@ -19,6 +23,11 @@ h5 {
 }
 
 h6 {}
+
+/* h1:before {
+    counter-increment: h1counter;
+    content: counter(h1counter) "."
+} */
 
 h2:before {
     counter-increment: h2counter;
@@ -54,3 +63,38 @@ h6:before {
         counter(h5counter) "."
         counter(h6counter) ".\0000a0\0000a0";
 }
+
+/* h2:before {
+    counter-increment: h2counter;
+    content: counter(h2counter) ".\0000a0\0000a0";
+}
+
+h3:before {
+    counter-increment: h3counter;
+    content: counter(h2counter) "."
+        counter(h3counter) ".\0000a0\0000a0";
+}
+
+h4:before {
+    counter-increment: h4counter;
+    content: counter(h2counter) "."
+        counter(h3counter) "."
+        counter(h4counter) ".\0000a0\0000a0";
+}
+
+h5:before {
+    counter-increment: h5counter;
+    content: counter(h2counter) "."
+        counter(h3counter) "."
+        counter(h4counter) "."
+        counter(h5counter) ".\0000a0\0000a0";
+}
+
+h6:before {
+    counter-increment: h6counter;
+    content: counter(h2counter) "."
+        counter(h3counter) "."
+        counter(h4counter) "."
+        counter(h5counter) "."
+        counter(h6counter) ".\0000a0\0000a0";
+} */
