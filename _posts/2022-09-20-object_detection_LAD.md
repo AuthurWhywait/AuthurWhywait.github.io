@@ -126,7 +126,8 @@ Two criteria for $\rho$:
 $$
 \begin{cases}
     \rho_{\sigma/\mu}=\frac{\sigma}{\mu}\\
-    % \rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}
+    \rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{2}
+    % \frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}
 \end{cases}
 $$
 
