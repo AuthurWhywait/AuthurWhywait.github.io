@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LAD and CoLAD: Improving Object Detection by Label Assignment Distillation"
+title: "LAD and CoLAD. Improving Object Detection by Label Assignment Distillation"
 description: "LAD and CoLAD"
 categories: [PaperReading]
 tags: [Object Detection, LAD, Deep Learning]
