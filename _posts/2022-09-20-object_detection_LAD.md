@@ -120,8 +120,17 @@ We use two separate networks similarly to LAD, but none of them must be pre-trai
 
 Two criteria for $\rho$:
 
-- Std/Mean score $\rho_{\sigma/\mu}=\frac{\sigma}{\mu}$
-- Fisher score $\rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}$
+- Std/Mean score $\rho_{\sigma/\mu}$
+- Fisher score $\rho_{Fisher}$
+
+$$
+\begin{cases}
+    \rho_{\sigma/\mu}=\frac{\sigma}{\mu}\\
+    \rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}
+\end{cases}
+$$
+
+<!-- $\rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}$ -->
 
 In the Fisher Score, we approximate the distribution of $\{c_i\}$ by a mixture of two Gaussian models $G\left(\mu^{+}, \sigma^{+}\right)+G\left(\mu^{-}, \sigma^{-}\right)$.
 
