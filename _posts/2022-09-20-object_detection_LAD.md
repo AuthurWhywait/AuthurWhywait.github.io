@@ -8,7 +8,7 @@ redirect_from:
   - /2022/09/20/
 ---
 
-<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203721.png' width=100%/></div>
+<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203721.png' width='100%'/></div>
 
 Techniques of label assignment distillation (LAD) and its improved Co-learning version (CoLAD) are introduced in this paper. Change from common versions to LAD is easily implemented by replacing the $(p_i,b_i)$ with the teacher predicts $(p_T^i,b_T^i)$. And the role of teacher or student is decided by the two performance indicators of $\rho_{\sigma/\mu}$ and $\rho_{Fisher}$.
 
@@ -92,7 +92,7 @@ distilling.
 
 ### Label Assignment Distillation
 
-<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203701.png' width=90%/><br/><ie><small>
+<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203701.png' width='90%'/><br/><ie><small>
     PAA and its LAD counterpart.
 </small></ie></div>
 
@@ -108,7 +108,7 @@ To convert PAA to LAD, we simply use the teacher’s prediction $(p_T^i,b_T^i)$ 
 
 ### Co-learning Label Assignment Distillation
 
-<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203721.png' width=100%/><br/><ie><small>
+<div align=center><img src='https://cdn.jsdelivr.net/gh/AuthurWhywait/images/20220919203721.png' width='100%'/><br/><ie><small>
     Co-Learning Label Assignment Distillation (CoLAD) framework.
 </small></ie></div>
 
