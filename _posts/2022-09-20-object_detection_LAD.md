@@ -126,20 +126,11 @@ Two criteria for $\rho$:
 $$
 \begin{cases}
     \rho_{\sigma/\mu}=\frac{\sigma}{\mu}\\
-    \rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma ^ {+}}^2}
-    % \frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}
+    \rho_{Fisher}=\frac{(\mu_{+}-\mu_{-})^2}{\sigma_{+}^2+\sigma_-^2}
 \end{cases}
 $$
 
-<!-- $$
-\begin{cases}
-    \rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}
-\end{cases}
-$$ -->
-
-<!-- $\rho_{Fisher}=\frac{(\mu^{+}-\mu^{-})^2}{{\sigma^{+}}^2+{\sigma^{-}}^2}$ -->
-
-In the Fisher Score, we approximate the distribution of $\{c_i\}$ by a mixture of two Gaussian models $G\left(\mu^{+}, \sigma^{+}\right)+G\left(\mu^{-}, \sigma^{-}\right)$.
+In the Fisher Score, we approximate the distribution of $\{c_i\}$ by a mixture of two Gaussian models $G\left(\mu_{+}, \sigma_{+}\right)+G\left(\mu_{-}, \sigma_{-}\right)$.
 
 > Therefore, by dynamically switching the teacher-student, the process no longer relies on a single network, stochastically breaking the loop of training-self assignment. This also brings more randomness at the initial training due to network initialization, hence potentially reducing the risk of local minimal trapping.
 
