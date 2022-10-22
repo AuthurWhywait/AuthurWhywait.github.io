@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CenterNet. Objects as Points"
+title: "Objects as Points"
 description: "CenterNet"
 categories: [PaperReading]
 tags: [Object Detection, CenterNet]
@@ -75,3 +75,6 @@ $$
 
 <font color=red>Pay more attention to the diagram in this paper!</font>
 
+## Reference
+
+- Zhou, X., Wang, D., & Krähenbühl, P. (2019). Objects as points. arXiv preprint arXiv:1904.07850.
