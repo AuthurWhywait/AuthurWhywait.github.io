@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Objects as Points"
+title: "CenterNet. Objects as Points"
 description: "CenterNet"
 categories: [PaperReading]
 tags: [Object Detection, CenterNet]
