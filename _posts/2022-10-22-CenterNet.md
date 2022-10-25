@@ -32,9 +32,12 @@ Other used techniques:
 <!-- ## Preliminary -->
 
 > $p\in\mathcal{R}^2$ of class $c$;
+> 
 > low-resolution equivalent $\tilde{p}=\left\lfloor\frac{p}{R}\right\rfloor$;
+> 
 > heatmap $Y \in[0,1]^{\frac{W}{R} \times \frac{H}{R} \times C}$
-> Gaussian kernel $Y_{x y c}=\exp \left(-\frac{\left(x-\tilde{p}_{x}\right)^{2}+\left(y-\tilde{p}_{y}\right)^{2}}{2 \sigma_{p}^{2}}\right)$
+> 
+> Gaussian kernel $Y_{xyc}=\exp \left(-\frac{\left(x-\tilde{p}_ x\right)^{2}+\left(y-\tilde{p}_ y\right)^{2}}{2 \sigma_{p}^{2}}\right)$
 
 The training objective is a penalty-reduced pixel-wise logistic regression with focal loss:
 
@@ -57,8 +60,11 @@ $$
 <!-- ## Object as Points -->
 
 > bounding box: $\left(x_{1}^{(k)}, y_{1}^{(k)}, x_{2}^{(k)}, y_{2}^{(k)}\right)$
+> 
 > center point: $p_k = \left(\frac{x_{1}^{(k)}+x_{2}^{(k)}}{2}, \frac{y_{1}^{(k)}+y_{2}^{(k)}}{2}\right)$
+> 
 > regress to the object size $s_{k}=\left(x_{2}^{(k)}-x_{1}^{(k)}, y_{2}^{(k)}-y_{1}^{(k)}\right)$ for each object $k$
+> 
 > single prediction $\hat{S} \in \mathcal{R}^{\frac{W}{R} \times \frac{H}{R} \times 2}$ for all object categories.
 
 Use an L1 loss at the center point similar to Object:
